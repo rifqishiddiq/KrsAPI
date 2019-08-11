@@ -14,7 +14,7 @@ Clone this project in your htdocs directory
 
 Start your mysql service
 
-Create new database with the name "krs-api", and then import "krs-api.sql" in directory "/src/db" 
+Create a database with the name "krs-api", and then import "krs-api.sql" from directory "/src/db" 
 
 Open git bash inside the project directory, and then write command
 
