@@ -27,10 +27,11 @@ After the server started, go to
 ```
 http://localhost:8000/api
 ```
+Now the project are already stared and it shows the models and the API of each entity
 
-Because we will experiment about filling the study program card, lets start from fill the college student data
+Because we will try to filling out the study program card, let's start from filling the college student's data
 
-Go to the post method of "Mahasiswa", and then try to input the students name
+Open the post method of "Mahasiswa" API, and then try to input the students name
 
 ```
 {
@@ -40,7 +41,7 @@ Go to the post method of "Mahasiswa", and then try to input the students name
 
 Student's data is now stored in the database. You can check it using get method
 
-After that, go to PivotMahasiswaJurusanJenjangPendidikan entity, choose post method, and then input the data
+After that, open the post method of "PivotMahasiswaJurusanJenjangPendidikan" API, and then input the data
 
 ```
 {
@@ -53,7 +54,7 @@ After that, go to PivotMahasiswaJurusanJenjangPendidikan entity, choose post met
 
 {id} in "idMahasiswa" are depends on which student do you want to choose from Mahasiswa entity (use the id from student you just added)
 
-Now start to work on the study program card. Open the method post in KrsSemester entity, and then input
+Now start to work on the study program card. Open the post method in "KrsSemester" API, and then input
 
 ```
 {
@@ -65,7 +66,8 @@ Now start to work on the study program card. Open the method post in KrsSemester
 
 Now student's semester and university credit units have been registered
 
-And then you can go to post method on KrsMahasiswa entity to add the class to fill the study program card
+And then you can fill the study program card by opening the post method on "KrsMahasiswa" API, and then input 
+
 ```
 krs_mahasiswa
 {
